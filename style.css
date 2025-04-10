@@ -8,7 +8,7 @@ body {
 }
 
 .hero {
-  min-height: 100vh;
+  min-height: 50vh;
   background: linear-gradient(135deg, #3a0ca3, #7209b7);
   display: flex;
   flex-direction: column;
