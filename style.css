@@ -165,7 +165,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 100vh;
+  min-height: 50vh;
   padding: 60px 10%;
 }
 
@@ -191,7 +191,7 @@ footer {
 
 .hero-image img {
   max-width: 280px; /* Reduced image size */
-  width: 100%;
+  width: 50%;
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
 }
