@@ -163,14 +163,15 @@ footer {
 /* Hero Layout Adjustments */
 .hero-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  min-height: 50vh;
+  min-height: 100vh;
   padding: 60px 10%;
 }
 
 .hero-inner {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 100px; /* Adjusted for better spacing */
@@ -181,17 +182,19 @@ footer {
   flex: 1;
   text-align: left;
   min-width: 300px;
+  order: 1;
 }
 
 .hero-image {
   flex: 1;
   display: flex;
   justify-content: flex-end;
+  order: 2;
 }
 
 .hero-image img {
-  max-width: 280px; /* Reduced image size */
-  width: 50%;
+  max-width: 250px; /* Adjusted image size */
+  width: 100%;
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
 }
@@ -226,10 +229,12 @@ footer {
 
   .hero-text {
     text-align: center;
+    order: 1;
   }
 
   .hero-image {
     justify-content: center;
+    order: 2;
   }
 
   .hero-image img {
